@@ -10,3 +10,10 @@ header {
     background-color: #506188;
     text-align: center;
 }
+img {
+    width: 230px;
+    height: 230px;
+    border-radius: 30px;
+    position: absolute;
+    top: 100px;
+}
