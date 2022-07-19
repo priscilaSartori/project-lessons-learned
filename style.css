@@ -49,3 +49,9 @@ article {
     position: absolute;
     top: 170%;
 }
+
+aside {
+    text-align: justify;
+    position: absolute;
+    top: 210%;
+}
