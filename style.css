@@ -47,7 +47,8 @@ footer {
 article {
     text-align: justify;
     position: absolute;
-    top: 170%;
+    margin: 12%;
+    padding: 15%;
 }
 
 aside {
