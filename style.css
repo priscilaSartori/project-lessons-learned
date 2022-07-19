@@ -49,6 +49,10 @@ article {
     position: absolute;
     margin: 12%;
     padding: 15%;
+    font-size: large;
+    color: #6CA396;
+    line-height: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 aside {
