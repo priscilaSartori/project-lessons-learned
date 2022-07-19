@@ -30,12 +30,12 @@ header {
 
 footer {
     position: absolute;
-    top: 250%;
+    top: 300%;
 }
 
 #contato {
     position: absolute;
-    top: 220%;
+    top: 250%;
 }
 
 #img2 {
@@ -54,4 +54,18 @@ aside {
     text-align: justify;
     position: absolute;
     top: 210%;
+}
+
+table {
+    position: absolute;
+    top: 220%;
+}
+
+table th {
+    border: 1px solid black;
+    background-color: #6CA396;
+}
+table td {
+    border: 1px solid black;
+    background-color: #C7C9A5;
 }
