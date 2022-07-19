@@ -17,3 +17,8 @@ img {
     position: absolute;
     top: 100px;
 }
+
+#licoes_aprendidas {
+    position: relative;
+    top: 400px;
+}
