@@ -19,6 +19,11 @@ img {
 }
 
 #licoes_aprendidas {
-    position: relative;
-    top: 400px;
+    position: absolute;
+    top: 350px;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    top: 650px;
 }
