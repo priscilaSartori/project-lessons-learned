@@ -27,3 +27,8 @@ img {
     position: absolute;
     top: 650px;
 }
+
+footer {
+    position: absolute;
+    top: 200%;
+}
