@@ -10,7 +10,7 @@ header {
     background-color: #506188;
     text-align: center;
 }
-img {
+#minha_foto {
     width: 230px;
     height: 230px;
     border-radius: 30px;
@@ -30,5 +30,16 @@ img {
 
 footer {
     position: absolute;
-    top: 200%;
+    top: 250%;
+}
+
+#contato {
+    position: absolute;
+    top: 190%;
+}
+
+#img2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
 }
