@@ -10,32 +10,47 @@ header {
     background-color: #506188;
     text-align: center;
 }
+
 #minha_foto {
     width: 230px;
     height: 230px;
     border-radius: 30px;
     position: absolute;
-    top: 100px;
+    top: 110px;
+    left: 50px;
 }
 
-#licoes_aprendidas {
+aside {
     position: absolute;
     top: 350px;
-}
-
-#licoes_a_aprender {
-    position: absolute;
-    top: 650px;
-}
-
-footer {
-    position: absolute;
-    top: 300%;
+    left: 0;
 }
 
 #contato {
     position: absolute;
-    top: 250%;
+    width: 23%;
+    top: 500px;
+    left: 0;
+}
+
+#licoes_aprendidas {
+    position: absolute;
+    top: 330px;
+    left: 10%;
+    color: #6ca396;
+}
+
+#licoes_a_aprender {
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    color: #6ca396;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 200%;
 }
 
 #img2 {
@@ -47,30 +62,56 @@ footer {
 article {
     text-align: justify;
     position: absolute;
-    margin: 12%;
-    padding: 15%;
     font-size: large;
-    color: #6CA396;
+    color: #6ca396;
     line-height: 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-aside {
-    text-align: justify;
-    position: absolute;
-    top: 210%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 table {
-    position: absolute;
-    top: 220%;
+    position: relative;
+    margin: 5%;
+    padding: 5%;
+    left: 1%;
+    top: 580px;
+    color: #6ca396;
 }
 
 table th {
-    border: 1px solid black;
-    background-color: #6CA396;
+    border: 1px solid #506188;
+    background-color: #506188;
 }
+
 table td {
-    border: 1px solid black;
-    background-color: #C7C9A5;
+    border: 1px solid #506188; 
+    background-color: #c7c9a5;
+}
+
+.lado-direito {
+    width: 800px;
+    height: 800px;
+    display: inline-block;
+}
+
+.lado-esquerdo {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    left: 3%;
+}
+
+#sec1 {
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+    text-align: justify;
+    left: 2%;
+}
+
+#sec2 {
+    position: absolute;
+    width: 60%;
+    display: inline-block;
+    left: 30%;
+    top: 20%;
 }
