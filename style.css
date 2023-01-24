@@ -1,117 +1,93 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(0, 0, 0);
+  color: wheat;
+  font-size: 20px;
+  margin: 0;
+  width: 100%;
 }
 
 header {
-  border: 5px solid rgb(93, 68, 236);
+  border: 5px solid yellow;
   position: fixed;
   top: 0;
+  color: black;
   width: 100%;
-  background-color: steelblue;
+  background-color: yellow;
   text-align: center;
+  height: 50px;
+}
+
+h1 {
+  margin: 0;
 }
 
 #minha_foto {
   width: 230px;
   height: 230px;
   border-radius: 30px;
-  position: absolute;
-  top: 110px;
-  left: 50px;
 }
 
-aside {
-  position: absolute;
-  top: 350px;
-  left: 0;
-}
-
-#contato {
-  position: absolute;
-  width: 23%;
-  top: 500px;
-  left: 0;
-}
-
-#licoes_aprendidas {
-  position: absolute;
-  top: 330px;
-  left: 10%;
-  color: lightseagreen;
-}
-
-#licoes_a_aprender {
-  position: absolute;
-  top: 330px;
-  left: 50%;
-  color: lightseagreen;
+#secoes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
 }
 
 footer {
   width: 100%;
-  position: absolute;
-  top: 200%;
+  text-align: center;
 }
 
 #img2 {
   width: 30px;
   height: 30px;
-  position: absolute;
+} 
+
+#sec1 {
+  width: 25%;
+  text-align: justify;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-article {
+#sec2 {
+  width: 800px;
   text-align: justify;
-  position: absolute;
-  font-size: large;
-  color: lightseagreen;
-  line-height: 30px;
-  font-family: cursive;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sec3 {
+  text-align: justify;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
 }
 
 table {
   position: relative;
-  margin: 5%;
-  padding: 5%;
   left: 1%;
-  top: 580px;
   color: lightseagreen;
-}
+} 
 
 table th {
-  border: 1px solid royalblue;
-  background-color: royalblue;
+  border: 1px solid Chocolate;
+  background-color: Chocolate;
+  width: 300px;
+  color: black;
+  text-align: center;
 }
 
 table td {
-  border: 1px solid royalblue;
-  background-color: lightblue;
-}
-
-.lado-direito {
-  width: 800px;
-  height: 800px;
-  display: inline-block;
-}
-
-.lado-esquerdo {
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  left: 3%;
-}
-
-#sec1 {
-  position: absolute;
-  display: inline-block;
-  width: 25%;
-  text-align: justify;
-  left: 2%;
-}
-
-#sec2 {
-  position: absolute;
-  width: 60%;
-  display: inline-block;
-  left: 30%;
-  top: 20%;
+  border: 1px solid Khaki;
+  background-color: Khaki;
+  color: black;
 }
