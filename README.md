@@ -30,12 +30,12 @@ Um site que contém uma série de informações sobre o que aprendi na Trybe ao 
 
 <details>
 
-<summary>A página deve possuir uma cor de fundo <code>rgb(253, 251, 251)</code>
+<summary>A página deve possuir uma cor de fundo <code>rgb(0, 0, 0)</code>
 </summary><br/>
 
 **O que será testado:**
 
-- A página deve possuir cor de fundo: `rgb(253, 251, 251)`.
+- A página deve possuir cor de fundo: `rgb(0, 0, 0)`.
 
 </details>
 
@@ -70,37 +70,37 @@ Um site que contém uma série de informações sobre o que aprendi na Trybe ao 
 
 </details>
 
-### 4. Adicione uma lista de lições aprendidas à página
+### 4. Adicione uma lista de metas e habilidades à página
 
 <details>
 
-<summary>A lista deve possuir <strong>10</strong> itens, ser numerada e possuir o ID <code>licoes_aprendidas</code>.
+<summary>A lista deve possuir <strong>5</strong> itens, ser numerada e possuir o ID <code>metasehabilidades</code>.
 </summary><br/>
 
 **O que será testado:**
 
 - A lista deve ser numerada;
 
-- A lista deve possuir o ID `licoes_aprendidas`;
+- A lista deve possuir o ID `metasehabilidades`;
 
-- A lista deve possuir 10 itens.
+- A lista deve possuir 5 itens.
 
 </details>
 
-### 5. Crie uma lista de lições que ainda deseja aprender para a página
+### 5. Crie uma lista de habilidades desenvolvidas
 
 <details>
 
-<summary>A lista deve possuir <strong>10</strong> itens, não ser numerada e possuir o ID <code>licoes_a_aprender</code>.
+<summary>A lista deve possuir <strong>5</strong> itens, não ser numerada e possuir o ID <code>habilidades</code>.
 </summary><br/>
 
 **O que será testado:**
 
 - A lista não deve ser numerada;
   
-- A lista deve possuir o ID `licoes_a_aprender`;
+- A lista deve possuir o ID `habilidades`;
 
-- A lista deve possuir 10 itens.
+- A lista deve possuir 5 itens.
 
 </details>
 
@@ -138,13 +138,13 @@ Um site que contém uma série de informações sobre o que aprendi na Trybe ao 
 
 <details>
 
-<summary>O artigo deverá ser uma tag html <code>article</code> e deve possuir mais de 300 <strong>caracteres</strong> e menos de 600.
+<summary>O artigo deverá ser uma tag html <code>article</code> e deve possuir mais de 300 <strong>caracteres</strong> e menos de 1500.
 </summary><br/>
 
 **O que será testado:**
 
 - O artigo deve possuir a tag `article`;
-- O artigo deve ter mais de 300 caracteres e menos de 600.
+- O artigo deve ter mais de 300 caracteres e menos de 1500.
 
 </details>
 
