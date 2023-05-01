@@ -12,6 +12,13 @@
 Foi desenvolvido uma página HTML posicionada e estilizada com CSS.
 
 Um site que contém uma série de informações sobre o que aprendi na Trybe ao longo dos primeiros três blocos. O site possui elementos posicionados e estilizados e, além disso, contém semântica apropriada para que seja acessível e melhor ranqueado.
+
+<br />
+
+Habilidades desenvolvidas
+- HTML: Estruturas de página;
+- CSS: Seletores e posicionamento;
+
 </p>
 
 <hr>
