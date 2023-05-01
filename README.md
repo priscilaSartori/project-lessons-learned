@@ -260,24 +260,27 @@ Lembre-se que tudo dentro da tag `aside` será contabilizado como caractere.
 </details>
 
 <br />
-  
-## Acessando o projeto
 
-Antes de começar, você vai precisar ter instalado em sua máquina a ferramenta [Git](https://git-scm.com).
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e instale a extensão Live Server.
+## Pré-requisitos
 
-```bash
-# Clone este repositório
-$ git clone git@github.com:priscilaSartori/project-lessons-learned.git
+- Antes de começar, você vai precisar ter instalado em sua máquina a ferramenta [Git](https://git-scm.com).
+- Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) e instale a extensão Live Server.
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd project-lessons-learned
+<br />
 
-# Instale as dependências
-$ npm install
+## Acesso ao Projeto
 
-# Inicie o arquivo no VSCode
-$ code .
+- Clone este repositório: `git clone git@github.com:priscilaSartori/project-lessons-learned.git`
 
-# Visualize o arquivo HTML
+- Acesse a pasta do projeto no terminal/cmd: `cd project-lessons-learned`
+
+- Instale as dependências: `npm install`
+
+- Visualize o arquivo HTML
+Inicie o arquivo no VSCode: `code .`
+
 Você deverá ver um ícone, abaixo na tela, no campo em azul, dizendo "Go Live" (Colocar ao vivo):
+
+- Teste o projeto: `npm run cypress:open`
+
+Após executar o comando acima, será aberta uma janela de navegador e então basta clicar no nome do arquivo de teste que quiser executar (project.spec.js ou bonus.spec.js).
